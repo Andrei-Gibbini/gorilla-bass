@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
 </head>
+
 <body>
     <h1>🦍 Gorilla Bass: A Revolta</h1>
-  <div class="stats">
-    <p>Vida do Gorila: <span id="vidaGorila">100</span></p>
-    <p>Humanos restantes: <span id="humanosRestantes">100</span></p>
-    <p>Ataques: <span id="ataques">0</span></p>
-  </div>
-  <div class="imagens">
-    <img src="/assets/img/humanos.png" alt="Humano" class="personagem"/>
-    <img src="/assets/img/gorila.png" alt="Gorila" class="personagem"/>
-    
-  </div>
+    <div class="stats">
+        <p>Vida do Gorila: <span id="vidaGorila">100</span></p>
+        <p>Humanos restantes: <span id="humanosRestantes">100</span></p>
+        <p>Ataques: <span id="ataques">0</span></p>
+    </div>
+    <div class="imagens">
+        <img src="/assets/img/humanos.png" alt="Humano" class="personagem" />
+        <img src="/assets/img/gorila.png" alt="Gorila" class="personagem" />
+
+        <div class="botoes">
+            <button onclick="atacar()">Atacar</button>
+            <button onclick="defender()">Defender</button>
+            <button onclick="curar()">Curar</button>
+            <button onclick="resetar()">🔄 Resetar</button>
+        </div>
+
+    </div>
 </body>
+
 </html>
