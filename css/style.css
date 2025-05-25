@@ -81,3 +81,13 @@ button:disabled {
     font-family: monospace;
     font-size: 0.9em;
 }
+
+.gorila-atacando {
+  animation: ataqueGorila 0.3s ease;
+}
+ 
+@keyframes ataqueGorila {
+  20% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.1) rotate(-5deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
